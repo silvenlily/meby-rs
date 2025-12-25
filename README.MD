@@ -1,5 +1,7 @@
 # Meby
 
+[[repo]](https://github.com/silvenlily/meby-rs)
+
 Provides a `Meby<Res,Err>` type that can be: `Yes<Res>` `Oops<Err>` or `Nope`  
 Effectively an easier to handle `Option<Result>` or `Result<Option>`  
 `Meby` can be converted back and forth between `Option<Result>` and `Result<Option>` 
