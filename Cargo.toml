@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
 description = "Zero dependency crate that provides a Meby<_,_> type for easier handling of Option<Result<_,_>> and Result<Option<_>,_>. Requires #![feature(try_trait_v2)]"
+repository = "https://github.com/silvenlily/meby-rs"
+readme = "README.MD"
+authors = ["Lily Young"]
+keywords = ["error"]
+publish = ["meby"]
 
 [features]
 default = ["try_trait_v2"]
