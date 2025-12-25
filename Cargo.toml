@@ -8,7 +8,6 @@ repository = "https://github.com/silvenlily/meby-rs"
 readme = "README.MD"
 authors = ["Lily Young"]
 keywords = ["error"]
-publish = ["meby"]
 
 [features]
 default = ["try_trait_v2"]
