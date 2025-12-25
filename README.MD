@@ -1,6 +1,6 @@
 # Meby
 
-[[repo]](https://github.com/silvenlily/meby-rs)
+[[repo]](https://github.com/silvenlily/meby-rs) [[crates.io]](https://crates.io/crates/meby)
 
 Provides a `Meby<Res,Err>` type that can be: `Yes<Res>` `Oops<Err>` or `Nope`  
 Effectively an easier to handle `Option<Result>` or `Result<Option>`  
