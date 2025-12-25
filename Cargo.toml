@@ -1,0 +1,12 @@
+[package]
+name = "meby"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Zero dependency crate that provides a Meby<_,_> type for easier handling of Option<Result<_,_>> and Result<Option<_>,_>. Requires #![feature(try_trait_v2)]"
+
+[features]
+default = ["try_trait_v2"]
+try_trait_v2 = []
+
+[dependencies]
